@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "cd backend/public/; node server.js"
+    "start": "cd backend; tsc; cd public; node server.js"
   },
   "repository": {
     "type": "git",
